@@ -18,7 +18,7 @@ const argv = yargs
   var geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`;
 
   // get your api key from darksky servers
-  const key = '502440f731efc379495fd589b79f56d7';
+  const key = '';
 
 
   axios.get(geocodeUrl).then( (response) => {

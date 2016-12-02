@@ -1,7 +1,7 @@
 const request = require('request');
 
 // get your api key from darksky servers
-const key = '502440f731efc379495fd589b79f56d7';
+const key = '';
 
 var getWeather = (latitude,longitude,callback) => {
   const request = require('request');
